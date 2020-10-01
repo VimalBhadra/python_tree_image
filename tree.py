@@ -41,7 +41,7 @@ class tree:
 			curr=curr.next;
 		return cou;
 	def image(self):
-		fontPath =  "/usr/share/fonts/truetype/didot/GFSDidotBold.otf"
+		fontPath =  "/usr/share/fonts/truetype/didot/GFSDidotBold.otf"                        #we can add fonts and other configuration by using import tkinter
 		sans16  =  ImageFont.truetype ( fontPath, 20 )
 		im  =  Image.new ( "RGB", (1300,800), "#ddd" )
 		draw  =  ImageDraw.Draw ( im )
